@@ -1,7 +1,8 @@
-# Tic-Tac-Toe-AI
-An artificial intelligence that learns to play Tic Tac Toe
-This Tic Tac Toe Ai learns from games that it has played, the games are at first random, and become more skillful after many games have been played. The Ai learns by taking each board as a point in space, then looking at its past games and checking which moves are the best. The Ai then plays the move it thinks is the best. 
+Tic-Tac-Toe ML code
 
+This is my first experience with Machine Learning and Python's PyGame. 
 
-How the Ai works:
-	After each game, the Ai takes all the "points" from the board that were played, and puts them in ninth dimensional space. 
+Feedback is accepted.
+
+How it works:
+      The chance of a move is given as 1/possible moves. With each iteration of a game, the agent then takes the board states and changes the amount of times the moves can be selected. 
