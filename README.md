@@ -5,7 +5,7 @@ This is a homebrew algorithm, here's how it works. It takes the board and takes 
 Once each game is finished, the program takes the moves made by the winner, and places them in its known move list. If this list is longer than 1000, it will remove some to make room. I do this so that it will only have a specific amount of memory that is ever going to be used, and will not slow down significantly while in use. 
 
 How to use:
-  On the left, you will see the program learning against a very similar program. The board on the left will update every frame, so it may be hard to see what's happening. On the right, you can see the board, the AI will move first at all times to keep things simple for itself. You can make a move by clicking on the square you would like to make your move in. 
+  On the right, you will see the program learning against a very similar program. The board on the right will update every frame, so it may be hard to see what's happening. On the left, you can see the board, the AI will move first at all times to keep things simple for itself. You can make a move by clicking on the square you would like to make your move in. 
 
 
 
